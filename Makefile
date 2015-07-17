@@ -180,7 +180,7 @@ doc/bcftools.html: doc/bcftools.txt
 
 docs: doc/bcftools.1 doc/bcftools.html
 
-install: $(PROG) doc/bcftools.1
+install: $(PROG)
 	$(INSTALL_DIR) $(DESTDIR)$(bindir) $(DESTDIR)$(man1dir) $(DESTDIR)$(plugindir)
 	$(INSTALL_PROGRAM) $(PROG) plot-vcfstats vcfutils.pl $(DESTDIR)$(bindir)
 	$(INSTALL_DATA) doc/bcftools.1 $(DESTDIR)$(man1dir)

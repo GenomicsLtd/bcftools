@@ -1,0 +1,5 @@
+bcftools (1.2-1) unstable; urgency=low
+
+  * Initial release 
+
+ -- Stuart Teasdale <stuart.teasdale@genomicsplc.com>  Tue, 21 Jul 2015 13:01:51 +0100

@@ -1,0 +1,12 @@
+Source: bcftools
+Section: science
+Priority: optional
+Maintainer: Stuart Teasdale <stuart.teasdale@genomicsplc.com>
+Build-Depends: debhelper (>= 8.0.0), libblas-dev
+Standards-Version: 3.9.4
+
+Package: bcftools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

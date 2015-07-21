@@ -8,5 +8,10 @@ Standards-Version: 3.9.4
 Package: bcftools
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Conflicts: samtools (<< 1.0)
+Description: variant calling and manipulating VCFs and BCFs
+ Bcftools is a program for variant calling and manipulating VCFs and BCFs. It
+ replaces the original samtools BCF calling from bcftools subdirectory of
+ samtools and renders obsolete most of the perl VCFtools.
+
+

@@ -1,3 +1,9 @@
+bcftools (1.2-2) unstable; urgency=medium
+
+  * Fix debian/copyright
+
+ -- Stuart Teasdale <stuart.teasdale@genomicsplc.com>  Fri, 25 Sep 2015 12:24:14 +0100
+
 bcftools (1.2-1) unstable; urgency=low
 
   * Initial release 
